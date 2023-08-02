@@ -15,12 +15,11 @@ const routes: Routes = [
   },
   {
     path: 'uncommon',
-    component:UncommonPageComponent
+    component: UncommonPageComponent
   },
   {
     path: '**',
     redirectTo: ''
-
   }
 ];
 
