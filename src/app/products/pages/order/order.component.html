@@ -1,5 +1,35 @@
-<p-panel header="Pipes basicos" class="mb-3">
+<p-panel header="Pipes basicos"
+         class="mb-3">
   <p>
-    Pipes personalizados - creados por {{ 'nosotros' | toggleCase }}
+    Pipes personalizados - creados por {{ 'nosotros' | toggleCase:true }}
   </p>
 </p-panel>
+
+
+<p-toolbar>
+
+  <div class="p-toolbar-group-start">
+    <p-button label="ToogleCase"
+              icon="pi pi-search"
+              class="mr-2">
+    </p-button>
+  </div>
+
+  <div class="p-toolbar-group-end">
+
+    <p-button label="Por nombre"
+              icon="pi pi-sort"
+              styleClass="p-button-success mr-2">
+    </p-button>
+
+    <p-button label="Por volar"
+              icon="pi pi-sort"
+              styleClass="p-button-danger mr-2">
+    </p-button>
+
+    <p-button label="Por Color"
+              icon="pi pi-sort"
+              styleClass="p-button-help mr-2">
+    </p-button>
+  </div>
+</p-toolbar>

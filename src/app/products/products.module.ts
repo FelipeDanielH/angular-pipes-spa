@@ -15,12 +15,13 @@ import { ToggleCasePipe } from './pipes/toggle-case.pipe';
     NumbersPageComponent,
     UncommonPageComponent,
     OrderComponent,
-    ToggleCasePipe
+    ToggleCasePipe,
+
   ],
   imports: [
     CommonModule,
     PrimeNgModule,
-    ProductsRoutingModule
+    ProductsRoutingModule,
   ]
 })
 export class ProductsModule { }
